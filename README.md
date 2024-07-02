@@ -33,3 +33,6 @@ Run the script using the following command:
 
 ```sh
 python folder_sync.py <source_folder_path> <replica_folder_path> <interval_in_seconds> <log_file_path>
+
+example:
+python folder_sync.py /path/to/source /path/to/replica 60 /path/to/logfile.log
