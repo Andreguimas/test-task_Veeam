@@ -36,3 +36,10 @@ python folder_sync.py <source_folder_path> <replica_folder_path> <interval_in_se
 
 example:
 python folder_sync.py /path/to/source /path/to/replica 60 /path/to/logfile.log
+
+## Arguments
+
+<source_folder_path>: Path to the source folder.
+<replica_folder_path>: Path to the replica folder.
+<interval_in_seconds>: Time interval between synchronizations (in seconds).
+<log_file_path>: Path to the log file.
